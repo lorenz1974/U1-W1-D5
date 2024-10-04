@@ -1,0 +1,80 @@
+#container {
+    width: 1366px;
+}
+
+header {
+    text-align: left;
+}
+
+header img {
+    margin-left: 3rem;
+}
+
+#banner {
+    height: 15rem;
+    padding: 10rem 20rem 6rem 20rem;
+}
+
+.testimonianze {
+    padding: 6rem 2rem;
+    line-height: 1.6rem;
+}
+
+.testimonianze h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.testimonianze .quote {
+    font-size: 1.8rem;
+    margin: 2rem 0;
+}
+
+#footer {
+    width: fit-content;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+}
+
+#copyright {
+    text-align: center;
+}
+
+footer hr {
+    width: 50%;
+}
+
+#corpoCentrale {
+    text-align: left;
+    width: 0 auto;
+}
+
+#corpoCentrale .bloccoTesto {
+    text-align: left;
+    margin-left: 50%;
+    display: block;
+}
+
+#bloccoImmagine {
+    width: 30%;
+    float: left;
+    transform: translate(-50% 0, 0, 0);
+}
+
+#corpoSchede {
+    vertical-align: top;
+}
+
+.scheda {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+}
+
+.divImmagine img {
+    height: 250px;
+
+}

@@ -1,0 +1,39 @@
+body {
+    font-size: 1.2rem;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.65;
+    color: #393d41;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #25a2c3
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+#scegli {
+    margin-top: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+
+#scegli a {
+    color: #393d41;
+}
+
+#scegli p {
+    margin: 2rem;
+    font-weight: bold;
+}
