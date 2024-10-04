@@ -21,12 +21,24 @@ h1 {
     font-size: 2.5rem;
 }
 
-#scegli {
-    margin-top: 30vh;
+p {
+    margin-bottom: 1.5rem;
+}
+
+#scegli,
+#spiegone {
+    width: 50%;
+    margin-top: 3rem;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+}
+
+#scegli {
     text-align: center;
+}
+
+#piegone {
+    text-align: left;
 }
 
 #scegli a {

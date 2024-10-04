@@ -94,24 +94,6 @@ hr {
     padding-top: 0rem;
 }
 
-.testimonianze {
-    margin: 4rem 0;
-    background-color: #ff3c00;
-    color: white;
-    padding: 4rem 2rem;
-    line-height: 1.6rem;
-}
-
-.testimonianze h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    color: white;
-}
-
-.testimonianze .quote {
-    font-style: italic;
-    margin: 1rem 0;
-}
 
 .divImmagine {
     margin: 0;
@@ -156,4 +138,34 @@ hr {
     text-align: center;
     margin: 0;
     border-radius: 50%;
+}
+
+#testimonianze {
+    margin: 4rem 0;
+    background-color: #ff3c00;
+    color: white;
+    padding: 4rem 2rem;
+    line-height: 1.6rem;
+}
+
+#testimonianze h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+#testimonianze .quote {
+    font-style: italic;
+    margin: 1rem 0;
+}
+
+#changeLayout {
+    width: 25%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#changeLayout a {
+    color: white;
 }

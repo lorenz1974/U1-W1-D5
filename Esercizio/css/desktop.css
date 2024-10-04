@@ -1,7 +1,3 @@
-#container {
-    width: 1366px;
-}
-
 header {
     text-align: left;
 }
@@ -10,25 +6,77 @@ header img {
     margin-left: 3rem;
 }
 
+footer hr {
+    width: 50%;
+}
+
+button {
+    margin-top: 2rem;
+    width: 10rem;
+}
+
+.scheda {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+}
+
+.divImmagine img {
+    height: 13rem;
+}
+
+#container {
+    width: 1366px;
+}
+
 #banner {
     height: 15rem;
     padding: 10rem 20rem 6rem 20rem;
 }
 
-.testimonianze {
+#banner h1 {
+    margin-bottom: 2rem;
+}
+
+#corpoCentrale {
+    text-align: left;
+    height: 30rem;
+    padding-top: 3rem;
+}
+
+#corpoCentrale .bloccoTesto {
+    margin-left: 50%;
+}
+
+#corpoCentrale .bloccoTesto:nth-last-of-type(1) {
+    transform: translate(0, -225%);
+}
+
+#bloccoImmagine {
+    width: 35%;
+    /* float: left; */
+    /* se lo attivo l'H2 fo epicodeGarantisce si sposta a destra senza una ragione apparente */
+    transform: translate(30%, -50%);
+}
+
+#testimonianze {
     padding: 6rem 2rem;
     line-height: 1.6rem;
 }
 
-.testimonianze h2 {
+#testimonianze h2 {
     font-size: 2rem;
-    font-weight: bold;
-    color: white;
 }
 
-.testimonianze .quote {
+#testimonianze .quote {
     font-size: 1.8rem;
     margin: 2rem 0;
+}
+
+
+#corpoSchede {
+    vertical-align: top;
+    margin-bottom: 6rem;
 }
 
 #footer {
@@ -41,40 +89,4 @@ header img {
 
 #copyright {
     text-align: center;
-}
-
-footer hr {
-    width: 50%;
-}
-
-#corpoCentrale {
-    text-align: left;
-    width: 0 auto;
-}
-
-#corpoCentrale .bloccoTesto {
-    text-align: left;
-    margin-left: 50%;
-    display: block;
-}
-
-#bloccoImmagine {
-    width: 30%;
-    float: left;
-    transform: translate(-50% 0, 0, 0);
-}
-
-#corpoSchede {
-    vertical-align: top;
-}
-
-.scheda {
-    display: inline-block;
-    vertical-align: top;
-    width: 25%;
-}
-
-.divImmagine img {
-    height: 250px;
-
 }
