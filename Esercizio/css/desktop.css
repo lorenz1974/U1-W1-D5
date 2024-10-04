@@ -49,14 +49,14 @@ button {
 }
 
 #corpoCentrale .bloccoTesto:nth-last-of-type(1) {
-    transform: translate(0, -225%);
+    transform: translate(0, -205%);
 }
 
 #bloccoImmagine {
-    width: 35%;
+    width: 30%;
     /* float: left; */
     /* se lo attivo l'H2 fo epicodeGarantisce si sposta a destra senza una ragione apparente */
-    transform: translate(30%, -50%);
+    transform: translate(65%, -60%);
 }
 
 #testimonianze {
